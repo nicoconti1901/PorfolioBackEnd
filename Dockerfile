@@ -1,5 +1,5 @@
 
-FROM amazoncorretto:11-alpine-jdk 
+FROM amazoncorretto:19-alpine-jdk 
 
 MAINTAINER NicoConti 
 
