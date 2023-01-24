@@ -1,9 +1,9 @@
 
-FROM amazoncorretto:11-alpine-jdk // de que imagen de java partimos
+FROM amazoncorretto:11-alpine-jdk 
 
-MAINTAINER NicoConti // quien es el dueño
+MAINTAINER NicoConti 
 
-COPY target/PorfolioBackEnd-0.0.1-SNAPSHOT.jar nicoporfolio.jar  //va a copiar el empaquetado github
+COPY target/PorfolioBackEnd-0.0.1-SNAPSHOT.jar nicoporfolio.jar  
 
-ENTRYPOINT ["java","jar","nicoporfolio.jar"]      //que se va a ejecutar primero
+ENTRYPOINT ["java","jar","nicoporfolio.jar"]     
 
