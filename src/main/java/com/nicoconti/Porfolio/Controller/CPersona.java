@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/persona")
-@CrossOrigin(origins = "https://porfoliobackend.web.app")
+@CrossOrigin(origins = "https://porfolionicoconti-b4ab3.web.app")
 
 public class CPersona {
     @Autowired
@@ -45,7 +45,7 @@ public class CPersona {
         Persona persona = new Persona(dtopers.getNombre(), dtopers.getApellido(), dtopers.getEmail(), dtopers.getImagen(),dtopers.getAcercade());
         sPersona.save(persona);
         
-        return new ResponseEntity(new Mensaje("Experiencia agregada"),HttpStatus.OK);
+        return new ResponseEntity(new Mensaje("Persona agregada"),HttpStatus.OK);
     }
     
     @GetMapping("/detail/{id}")
