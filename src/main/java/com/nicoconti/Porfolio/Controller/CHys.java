@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 
 @RestController
-@CrossOrigin(origins = "https://porfolionicoconti-b4ab3.web.app")
+@CrossOrigin(origins = "http://localhost:4200")
 @RequestMapping("/skill")
 public class CHys {
     @Autowired
