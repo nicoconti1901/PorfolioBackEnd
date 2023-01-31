@@ -16,7 +16,6 @@ com\nicoconti\Porfolio\model\Persona.class
 com\nicoconti\Porfolio\Repository\REducacion.class
 com\nicoconti\Porfolio\Security\jwt\JwtProvider.class
 com\nicoconti\Porfolio\Dto\dtoEducacion.class
-.netbeans_automatic_build
 com\nicoconti\Porfolio\Security\Entity\UsuarioPrincipal.class
 com\nicoconti\Porfolio\model\Educacion.class
 com\nicoconti\Porfolio\service\SExperiencia.class
